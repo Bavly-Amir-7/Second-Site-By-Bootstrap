@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="content-language" content="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="website, blog, foo, bar">
+        <meta name="author" content="">
+        <meta name="publisher" content="">
+        <meta name="copyright" content="">
+        <meta name="description" content="">
+        <meta name="page-topic" content="">
+        <meta name="page-type" content="">
+        <meta name="audience" content="">
+        <meta name="robots" content="index, follow">
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <link rel="icon" href="">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha384-rYqCbHp5A2HRJK7I9stLne3+4XpOWFVI8S2kZUn7fowXwfQ8r6CvqDOt0NP5cM+r" crossorigin="anonymous">
+
+
+
+        <title>Second site </title>
+    </head>
+
+<body>
+
+    <!-- ________________________ start NavBar_____________________________   -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="
+    z-index: 1256;
+    position: fixed;
+    width: 100%;
+">
+        <div class="container">
+            <a class="navbar-brand fw-bold  " href="#">Sine<span class="brand">Mkt.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-bold text-capitalize">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">new arrival</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+
+                </ul>
+                <div class="d-flex align-items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0">
+                        </path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-gear" viewBox="0 0 16 16">
+                        <path
+                            d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0">
+                        </path>
+                        <path
+                            d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z">
+                        </path>
+                    </svg>
+                    <div class="position-relative">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cart mb-1" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2">
+                            </path>
+                        </svg>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle  counter"
+                            style="background-color:hsl(35.29deg 80.95% 54.71%);">7<span class="visually-hidden">unread
+                                messages</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- ________________________ End NavBar_____________________________   -->
+
+    <!-- ________________________ start carsoul________________________   -->
+
+
+    <div id="carouselExampleIndicators" class="carousel slide pt-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                class="active rounded-circle border custom_indicator border-2" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                class=" rounded-circle border custom_indicator border-2" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                class=" rounded-circle border custom_indicator border-2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item p-4 active">
+                <div class="row">
+                    <div class="col-12 col-lg-5 order-lg-2">
+                        <img src="./images/slider/slider1.png" class="d-block mw-100 carousel-custom-img" alt="...">
+                    </div>
+                    <div class="col-12 col-lg-7 carousel-card-custom">
+
+                        <h5 style="color: hsl(30, 10.62%, 55.69%);">Great Design Collection</h5>
+
+                        <h3 class="product-name" style="color: hsl(0deg 0.51% 38.24%);">Cloth Covered Accent Chair</h3>
+                        <p class="product-description" style="color: hsl(30deg 10.62% 55.69%);">
+                            Lorem Ipsum Dolor Sit Amet, consectetur Adipisicing Elit, Sed Do Eiuiana Smod Tempor Ut
+                            Labore
+                            Et Dolore Magna Aliqua. Ut enim Ad Minim veniam, quis nostrud exercitation Ullamco laboris
+                            nisi
+                            ut aliquip.
+                        </p>
+                        <div class="product-price">
+                            <span class="price-strikethrough" style="color: hsl(0deg 0.51% 38.24%);">&#11834;
+                                $399.00</span>
+                            <span class="price-current" style="color: hsl(30deg 10.62% 55.69%);">
+                                <del>$499.00</del></span>
+                        </div>
+                        <div class="buy justify_between mb-4" style="padding-top: 50px; ">
+                            <button class="add-to-cart-button"
+                                style="width: 128px;height: 42px;background-color: hsl(35.16deg 80.87% 54.9%);border: 0;">+
+                                Add to Cart</button>
+                            <a href="#" class="more-info-button"
+                                style="text-decoration: none;color: hsl(35.03deg 80.79% 55.1%);padding-left: 20px;">More
+                                Info</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item p-4">
+                <div class="row">
+                    <div class="col-12 col-lg-5 order-lg-2">
+                        <img src="./images/slider/slider2.png" class="d-block mw-100 carousel-custom-img" alt="...">
+                    </div>
+                    <div class="col-12 col-lg-7 carousel-card-custom">
+
+                        <h5 style="color: hsl(30, 10.62%, 55.69%);">Great Design Collection</h5>
+
+                        <h3 class="product-name" style="color: hsl(0deg 0.51% 38.24%);">Cloth Covered Accent Chair</h3>
+                        <p class="product-description" style="color: hsl(30deg 10.62% 55.69%);">
+                            Lorem Ipsum Dolor Sit Amet, consectetur Adipisicing Elit, Sed Do Eiuiana Smod Tempor Ut
+                            Labore
+                            Et Dolore Magna Aliqua. Ut enim Ad Minim veniam, quis nostrud exercitation Ullamco laboris
+                            nisi
+                            ut aliquip.
+                        </p>
+                        <div class="product-price">
+                            <span class="price-strikethrough" style="color: hsl(0deg 0.51% 38.24%);">&#11834;
+                                $399.00</span>
+                            <span class="price-current" style="color: hsl(30deg 10.62% 55.69%);">
+                                <del>$499.00</del></span>
+                        </div>
+                        <div class="buy justify_between mb-4" style=" padding-top: 50px; ">
+                            <button class="add-to-cart-button"
+                                style="width: 128px;height: 42px;background-color: hsl(35.16deg 80.87% 54.9%);border: 0;">+
+                                Add to Cart</button>
+                            <a href="#" class="more-info-button"
+                                style="text-decoration: none;color: hsl(35.03deg 80.79% 55.1%);padding-left: 20px;">More
+                                Info</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item p-4">
+                <div class="row">
+                    <div class="col-12 col-lg-5 order-lg-2">
+                        <img src="./images/slider/slider3.png" class="d-block mw-100 carousel-custom-img" alt="...">
+                    </div>
+                    <div class="col-12 col-lg-7 carousel-card-custom">
+
+                        <h5 style="color: hsl(30, 10.62%, 55.69%);">Great Design Collection</h5>
+
+                        <h3 class="product-name" style="color: hsl(0deg 0.51% 38.24%);">Cloth Covered Accent Chair</h3>
+                        <p class="product-description" style="color: hsl(30deg 10.62% 55.69%);">
+                            Lorem Ipsum Dolor Sit Amet, consectetur Adipisicing Elit, Sed Do Eiuiana Smod Tempor Ut
+                            Labore
+                            Et Dolore Magna Aliqua. Ut enim Ad Minim veniam, quis nostrud exercitation Ullamco laboris
+                            nisi
+                            ut aliquip.
+                        </p>
+                        <div class="product-price">
+                            <span class="price-strikethrough" style="color: hsl(0deg 0.51% 38.24%);">&#11834;
+                                $399.00</span>
+                            <span class="price-current" style="color: hsl(30deg 10.62% 55.69%);">
+                                <del>$499.00</del></span>
+                        </div>
+                        <div class="buy justify_between mb-4" style=" padding-top: 50px; ">
+                            <button class="add-to-cart-button"
+                                style="width: 128px;height: 42px;background-color: hsl(35.16deg 80.87% 54.9%);border: 0;">+
+                                Add to Cart</button>
+                            <a href="#" class="more-info-button"
+                                style="text-decoration: none;color: hsl(35.03deg 80.79% 55.1%);padding-left: 20px;">More
+                                Info</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ________________________ end carsoul___________________________   -->
+
+
+    <!-- ________________________ start products___________________________   -->
+    <div class="container mt-5 pt-4">
+        <div class="row g-4">
+            <div class="col-lg-3 col-sm-6">
+                <div class="popular_card h-100 p-4 text-center p-2">
+                    <img src="./Task/4/images/populer-products/p1.png" alt="products">
+                    <h4>Arm chair</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, praesentium.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="popular_card h-100 p-4">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img src="./Task/4/images/populer-products/p2.png" alt="products">
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <h4>Latest Designed Stool and chair</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque impedit repudiandae a,
+                                necessitatibus consequatur possimus, aliquid qui at, in deserunt quia ab culpa officiis
+                                ad
+                                nam provident non quo quae.</p>
+                            <div>Sales start from <span style="color: hsl(35.29deg 80.95% 54.71%);">$99.00</span></div>
+                            <button type="button" class="btn btn-light mt-3 mw-40 border-black" style="
+                                background-color: transparent;
+                                border-radius: inherit;
+                            ">Discover More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="popular_card h-100 text-center p-2">
+                    <img src="./Task/4/images/populer-products/p3.png" alt="products">
+                    <h4>Hanging Lamp</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, praesentium.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container mt-5" style="padding-bottom: 50px;">
+        <h2 class="text-center mb-5 mt-3">New Arrivals</h2>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <div class="arrival_container sale brown text-center p-2 position-relative">
+                    <img src="./images/collection/arrivals1.png" alt="collection">
+                </div>
+                <h5>Wooden Chair</h5>
+                <div>$65.00</div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <div class="arrival_container sale green text-center p-2 position-relative">
+                    <img src="./images/collection/arrivals2.png" alt="collection">
+                </div>
+                <h5>Single Armchair</h5>
+                <div>$80.00</div>
+            </div>
+
+
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <div class="arrival_container text-center p-2 position-relative">
+                    <img src="./images/collection/arrivals3.png" class="mw-100" alt="collection">
+                </div>
+                <h5>Wooden Armchair</h5>
+                <div>$40.00</div>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <div class="arrival_container sale brown text-center p-2 position-relative">
+                    <img src="./images/collection/arrivals4.png" class="mw-100" alt="collection">
+                </div>
+                <h5>Stylish Chair</h5>
+                <div>$100.00</div>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <div class="arrival_container text-center p-2 position-relative">
+                    <img src="./images/collection/arrivals5.png" class="mw-100" alt="collection">
+                </div>
+                <h5>Modern Chair</h5>
+                <div>$120.00</div>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <div class="arrival_container sale brown text-center p-2 position-relative">
+                    <img src="./images/collection/arrivals6.png" class="mw-100" alt="collection">
+                </div>
+                <h5>Mapple Wood Dinning Table</h5>
+                <div>100$</div>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <div class="arrival_container sale green text-center p-2 position-relative">
+                    <img src="./images/collection/arrivals7.png" class="mw-100" alt="collection">
+                </div>
+                <h5>Arm Chair</h5>
+                <div>$90.00</div>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <div class="arrival_container text-center p-2 position-relative">
+                    <img src="./images/collection/arrivals8.png" class="mw-100" alt="collection">
+                </div>
+                <h5>Wooden Bed</h5>
+                <div>$140.00</div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <!-- ________________________ end products___________________________   -->
+
+
+
+    <!-- ________________________ Sofa___________________________   -->
+    <div class="container-fluid"
+        style="background-image: url(images/collection/sofa-collection-banner.jpg); height: 600px;">
+        <div class="position-absolute sofa start-0  text-start sofa-absloute-div">
+        </div>
+        <div class="p-5" style=" z-index: 5;
+    position: relative;
+    color: white;
+    max-width: 700px;
+    top: 25%;">
+            <h2>Unlimited Sofa Collection</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident esse harum culpa
+                dignissimos numquam! Veniam, vitae modi! Ipsa ea quibusdam quisquam eligendi facilis,
+                harum voluptatum error qui porro magni. Sequi.
+            </p>
+            <p>Starting From <span style="color: orange;">$199</span></p>
+            <button class="btn btn-warning  mw-50" style="background-color: orange; color: white;border-radius: 0;">View
+                More</button>
+        </div>
+    </div>
+
+    <!-- ________________________ Sofa___________________________   -->
+
+    <!-- ________________________Featured Product__________________________   -->
+
+    <div class="container">
+        <h2 class="text-center p-5">Featured Product</h2>
+        <div class="row g-0">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <img src="./images/features/f1.jpg" alt="collection">
+                <div class="star-rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-secondary"></i>
+                    <span style="color: #aba8a9;">(45 Review)</span>
+                </div>
+                <h5>Designed Sofa</h5>
+                <div>$160.00</div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <img src="./images/features/f2.jpg" alt="collection">
+                <div class="star-rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-secondary"></i>
+                    <span style="color: #aba8a9;">(45 Review)</span>
+                </div>
+                <h5>Dinning Table</h5>
+                <div>$200.00</div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <img src="./images/features/f3.jpg" alt="collection">
+                <div class="star-rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-secondary"></i>
+                    <span style="color: #aba8a9;">(45 Review)</span>
+                </div>
+                <h5>Chair And Table</h5>
+                <div>$100.00</div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                <img src="./images/features/f4.jpg" alt="collection">
+                <div class="star-rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-secondary"></i>
+                    <span style="color: #aba8a9;">(45 Review)</span>
+                </div>
+                <h5>Modern Arm Chair</h5>
+                <div>$299.00</div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- ________________________Featured Product__________________________   -->
+
+    <!-- ________________________Latest Blog__________________________   -->
+
+
+
+    <div class="container">
+        <h2 class="text-center p-5">Latest Blog</h2>
+
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-8 col-sm-12">
+                <div class="card h-100 mx-auto border-0">
+                    <img src="./images/blog/b1.jpg" class="card-img-top" alt="blogs" style="
+                    padding-bottom: 20px;
+                ">
+                    <div class="card-body p-0">
+                        <h5>Why Brands are Looking at Local Language</h5>
+                        <p style="
+                        color: hsl(37.5deg 4.55% 65.49%)">By Robert Norby / 18th March 2018</p>
+                        <p style="
+                        color: hsl(37.5deg 4.55% 65.49%) ">Nemo Enim Ipsam voluptatem Quia Voluptas sit aspernatur<br>
+                            Aut Odit Aut Fugit, Sed Quia Consequuntur Magni Dolores Eos<br>
+                            Qui Ratione voluptatem sequi nesciunt...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8 col-sm-12">
+                <div class="card h-100 mx-auto border-0">
+                    <img src="./images/blog/b2.jpg" class="card-img-top" alt="blogs" style="
+                    padding-bottom: 20px;
+                ">
+                    <div class="card-body p-0">
+                        <h5>Why Brands are Looking at Local Language</h5>
+                        <p style="
+                        color: hsl(37.5deg 4.55% 65.49%)">By Robert Norby / 18th March 2018</p>
+                        <p style="
+                        color: hsl(37.5deg 4.55% 65.49%)">Nemo Enim Ipsam voluptatem Quia Voluptas sit aspernatur<br>
+                            Aut Odit Aut Fugit, Sed Quia Consequuntur Magni Dolores Eos<br>
+                            Qui Ratione voluptatem sequi nesciunt...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8 col-sm-12">
+                <div class="card h-100 mx-auto border-0">
+                    <img src="./images/blog/b3.jpg" class="card-img-top" alt="blogs" style="
+                    padding-bottom: 20px;
+                ">
+                    <div class="card-body p-0">
+                        <h5>Why Brands are Looking at Local Language</h5>
+                        <p style="
+                        color: hsl(37.5deg 4.55% 65.49%)">By Robert Norby / 18th March 2018</p>
+                        <p style="
+                        color: hsl(37.5deg 4.55% 65.49%)">Nemo Enim Ipsam voluptatem Quia Voluptas sit aspernatur<br>
+                            Aut Odit Aut Fugit, Sed Quia Consequuntur Magni Dolores Eos<br>
+                            Qui Ratione voluptatem sequi nesciunt...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ________________________ Latest Blog __________________________   -->
+    <div style="padding: 60px; background-color: hsl(228deg 55.56% 98.24%);">
+        <div class="container">
+            <div class="row g-1">
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                    <img src="./images/clients/c1.png" alt="collection">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                    <img src="./images/clients/c2.png" alt="collection">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                    <img src="./images/clients/c3.png" alt="collection">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center flex-column align-items-center">
+                    <img src="./images/clients/c4.png" alt="collection">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ________________________ Footer ____________________________   -->
+    <div class="container" style="margin-top: 40px;">
+        <footer>
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h3>Information</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Store</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h3>Store</h3>
+                        <ul>
+                            <li><a href="#">Wooden Chair</a></li>
+                            <li><a href="#">Royal Cloth Sofa</a></li>
+                            <li><a href="#">Accent Chair</a></li>
+                            <li><a href="#">Bed</a></li>
+                            <li><a href="#">Hanging Lamp</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h3>My Accounts</h3>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">My Cart</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h3>Newsletter</h3>
+                        <ul>
+                            <li><a href="#">Subscribe to get latest news update and information</a></li>
+                        </ul>
+                        <form style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: fit-content;">
+                            <input type="email" style="border: none; padding: 10px;" placeholder="Enter Email Here....">
+                            <button type="submit" style="
+                              border: none;
+                              background-color: transparent;
+                            "><i class="fa-solid fa-location-arrow" style="color: orange;"></i></button>
+                        </form>
+
+                    </div>
+                </div>
+
+        </footer>
+    </div>
+
+    <footer class="botoom-footer">
+        <div style="padding: 60px; background-color: hsl(228deg 55.56% 98.24%);">
+            <div>
+                <div class="footer-bottom">
+                    <p style="text-align: center;">© Copyright. Designed And Developed By Themesine</p>
+                </div>
+            </div>
+    </footer>
+
+
+    <!-- ________________________ Footer ____________________________   -->
+
+
+    <!-- Java Script -->
+
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- Java Script -->
+
+</body>
+
+</html>

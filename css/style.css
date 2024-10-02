@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Oswald:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    transition: .2s all ease-in-out;
+
+}
+
+:root {
+    --brand_color: hsl(35.29deg 80.95% 54.71%);
+    --font_one: hsl(0deg 0.52% 37.84%);
+    --font_two: hsl(30deg 10.53% 55.29%);
+    --products_bg: hsl(225deg 40% 98.04%);
+    --green_color: hsl(115.8deg 67.38% 54.31%);
+    --brown_color: hsl(30deg 64.22% 57.25%);
+    --active_star: hsl(48deg 83.76% 61.37%);
+    --star: hsl(0deg 0% 66.27%);
+}
+
+/***************** nav *****************/
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--brand_color);
+}
+
+/***************** nav *****************/
+
+
+/***************** brands  *****************/
+.brand {
+    color: var(--brand_color);
+}
+
+.counter {
+    font-size: .6rem;
+}
+
+.brand,
+.nav-link:hover {
+    color: var(--brand_color);
+}
+
+/***************** brands  *****************/
+
+
+/***************** carousel *****************/
+
+.carousel {
+    background-color: var(--products_bg);
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.carousel-indicators .active {
+    background: #ff000091;
+}
+
+.carousel-custom-img {
+    height: 500px;
+}
+
+.carousel-card-custom {
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.custom_indicator {
+    border-color: var(--brand_color) !important;
+}
+
+/***************** carousel *****************/
+
+/***************** new arrivals *****************/
+.popular_card {
+    background-color: var(--products_bg);
+}
+
+.row .btn-light:hover {
+    color: var(--font_one);
+    background-color: var(--brand_color) !important;
+}
+
+.arrival_container {
+    height: 250px;
+    width: 200px;
+    background-color: var(--products_bg);
+    line-height: 200px;
+}
+
+.sale::after {
+    content: "sale";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 20px;
+    width: 40px;
+    color: white;
+    line-height: 20px;
+}
+
+.green::after {
+
+    background-color: var(--brown_color);
+}
+
+.brown::after {
+    background-color: var(--green_color);
+
+}
+
+/***************** new arrivals *****************/
+
+
+/***************** sofa  *****************/
+.sofa-absloute-div {
+    background-color: hsl(193.33deg 7.32% 24.12% / 97%);
+    color: white;
+    width: 450px;
+    height: inherit;
+}
+
+@media (max-width: 767px) {
+    .carousel-custom-img {
+        height: 350px !important;
+        margin-bottom: 30px;
+    }
+
+    .carousel-card-custom {
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+    }
+
+    .sofa-absloute-div {
+        width: 100% !important;
+    }
+}
+
+/***************** sofa *****************/
+
+/***************** footer *****************/
+.footer-top ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-top h3 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.footer-top a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    white-space: pre-line;
+}
+
+.footer-top a:hover {
+    color: var(--brand_color);
+}
+
+/***************** footer *****************/
+
+
+/***************** transition  *****************/
+
+.popular_card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.popular_card:hover {
+    transform: scale(1.05);
+}
+
+.popular_card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.arrival_container {
+    transition: transform 0.3s ease-in-out;
+}
+
+.arrival_container:hover {
+    transform: scale(1.05);
+}
+
+.arrival_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.featured_product_container {
+    transition: transform 0.3s ease-in-out;
+}
+
+.featured_product_container:hover {
+    transform: scale(1.05);
+}
+
+.featured_product_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/***************** transition  *****************/
